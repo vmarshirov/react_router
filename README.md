@@ -1,3 +1,14 @@
+# 👇️ delete node_modules and package-lock.json
+rm -rf node_modules
+rm -f package-lock.json
+
+# 👇️ clean npm cache
+npm cache clean --force
+
+npm install
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
