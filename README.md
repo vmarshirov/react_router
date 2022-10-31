@@ -1,7 +1,34 @@
-git clone https://github.com/vmarshirov/react_router.git
-
+==========================
 
 service mysql stop
+
+==========================
+
+git clone https://github.com/vmarshirov/react_router.git
+
+cd react_router
+
+ls -lAF
+
+cat package.json
+
+npm install
+
+npm start
+
+=============
+
+cp cgi-bin/npm_start.sh ~/cgi-bin/npm_start.sh
+
+chmod 755 ~/cgi-bin/npm_start.sh
+
+http://185.182.111.214:7635/cgi-bin/npm_start.sh
+
+==========================
+
+service mysql stop
+
+===========================
 
 nohup npm start &>/dev/null &
 
