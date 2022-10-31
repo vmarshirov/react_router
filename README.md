@@ -1,3 +1,6 @@
+git clone https://github.com/vmarshirov/react_router.git
+
+
 service mysql stop
 
 nohup npm start &>/dev/null &
