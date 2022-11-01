@@ -35,7 +35,7 @@ const Main = () => {
     ]);
 
     return (
-        <div>
+        <div id="root">
             <RouterProvider router={router}/>
         </div>
     );
