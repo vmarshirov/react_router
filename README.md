@@ -1,3 +1,6 @@
+
+ 
+rsc
 ==========================
 
 service mysql stop
