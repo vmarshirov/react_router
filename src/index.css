@@ -27,6 +27,25 @@ body {
   line-height: 1.5;
   color: #121212;
 }
+
+
+#index {
+  display: flex;
+  flex-direction: column;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: #61dafb;
+
+}
+
+#main {
+  display: flex;
+}
+
+
 textarea,
 input,
 button {
@@ -97,9 +116,12 @@ form[action$="destroy"] button {
 }
 
 #root {
+  border-style: solid;
   display: flex;
-  height: 100%;
-  width: 100%;
+  flex-direction: column;
+
+  /*height: 100%;*/
+;
 }
 
 #sidebar {
