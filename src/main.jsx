@@ -1,9 +1,11 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import ErrorPage from "./error-page";
-import Contact from "./routes/contact";
+import Contact1 from "./routes/contact1";
+import Contact, {loader as contactLoader} from "./routes/contact";
+import First from "./routes/first";
+import Root, {action as rootAction, loader as rootLoader,} from "./routes/root";
 // import Root from "./routes/root";
-import Root, { loader as rootLoader, action as rootAction, } from "./routes/root";
 import "./index.css";
 
 const Main = () => {
@@ -18,23 +20,21 @@ const Main = () => {
                 {
                     path: "contacts/:contactId",
                     element: < Contact/>,
+                    loader: contactLoader,
                 },
-            ],
-
-        },
-
-/*
-        {
-            path: "contact  ",
-            element: < Contact/>,
-            children: [
                 {
-                    path: "contact/:contactId",
-                    element: < Contact/>,
+                    path: "contact1",
+                    element: < Contact1/>,
+                },
+
+                {
+                    path: "first",
+                    element: <First/>,
                 },
             ],
+
         },
-*/
+
 
     ]);
 
