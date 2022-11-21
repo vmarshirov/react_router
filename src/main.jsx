@@ -3,6 +3,7 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Root, {action as rootAction, loader as rootLoader,} from "./routes/root";
 import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
+import FilterForm from "./routes/filterForm";
 import ErrorPage from "./error-page";
 
 
@@ -16,15 +17,17 @@ const Main = () => {
             action: rootAction,
             children: [
                 {
-                    path: "contact",
-                    element: < Contact/>,
-                },
-
-                {
                     path: "home",
                     element: <Home/>,
                 },
-
+                {
+                    path: "contact",
+                    element: < Contact/>,
+                },
+                {
+                    path: "filterForm",
+                    element: < FilterForm/>,
+                },
             ],
 
         },
