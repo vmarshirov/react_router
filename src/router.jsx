@@ -1,6 +1,6 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Root  from "./routes/root";
+import Root  from "./root";
 import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
 import FilterForm from "./routes/filterForm";

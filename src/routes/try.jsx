@@ -1,6 +1,6 @@
 import React from 'react';
 import {useState} from 'react';
-import Router from "../router";
+
 
 const Try = () => {
     const [a, setA] = useState(10);
@@ -48,12 +48,12 @@ const Try = () => {
 
     return (
         <div>
-            <h3>Try</h3>
+            <h3>Алгоритмическая задача</h3>
             <form action={"http://185.182.111.214:7628/cgi-bin/form_action.py"} method={"get"} target={"blank"}
                   id={"UserEnter"} name={"UserEnter"}>
                 <input name="formulation" type="hidden"/>
                 <fieldset id={"fields"}>
-                    <label id={"label"}>Задача: <input name="task" type="text" value={task}/></label>
+                    <label id={"label"}>Задача: <input style={{width: '80%'}} name="task" type="text" value={task}/></label>
                     <label id={"label"}>a: <input name="a" size="4" type="number" onChange={(e) => setA(e.target.value)}
                                                   value={a}/></label>
                     <label id={"label"}>b: <input name="b" size="4" type="number" onChange={(e) => setB(e.target.value)}
@@ -61,7 +61,7 @@ const Try = () => {
                     <label id={"label"}>c: <input name="c" size="4" type="number" onChange={(e) => setC(e.target.value)}
                                                   value={c}/></label>
 
-                    <label id={"label"}>Результаты: <input name="result" type="text" value={result}/></label>
+                    <label id={"label"}>Результаты: <input style={{width: '80%'}} name="result" type="text" value={result}/></label>
                 </fieldset>
 
                 <label><input id={"verify"} type={"button"} value={"Проверить"}/></label>

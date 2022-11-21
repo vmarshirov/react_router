@@ -1,7 +1,7 @@
 
 export default function FilterForm() {
     return (<div>
-            <h3>FilterForm</h3>
+            <h3>Форма</h3>
             <form action={"http://185.182.111.214:7628/cgi-bin/form_action.py"} method={"get"} target={"blank"}>
                 <select name="sort">
                     <option value="price">Price</option>
