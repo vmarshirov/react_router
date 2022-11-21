@@ -6,6 +6,8 @@ rsc
 service mysql stop
 
 ==========================
+https://reactdev.ru/handbook/introducing-jsx/#jsx-is-an-expression-too
+
 
 git clone https://github.com/vmarshirov/react_router.git
 

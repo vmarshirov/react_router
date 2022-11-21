@@ -10,6 +10,7 @@ export default function Root() {
                     <li> <NavLink to="home"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Home</NavLink>  </li>
                     <li> <NavLink to="contact"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Contact</NavLink>  </li>
                     <li> <NavLink to="filterForm"  style={({isActive}) =>  isActive ? activeStyle : undefined } >filterForm</NavLink>  </li>
+                    <li> <NavLink to="try"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Try</NavLink>  </li>
                 </ul>
             </nav>
         </div>
@@ -20,3 +21,4 @@ export default function Root() {
 
     </>);
 }
+

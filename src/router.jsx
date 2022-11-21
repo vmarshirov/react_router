@@ -4,10 +4,12 @@ import Root  from "./routes/root";
 import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
 import FilterForm from "./routes/filterForm";
+import Try from "./routes/try";
 import ErrorPage from "./error-page";
 
 
-const Main = () => {
+const Router = () => {
+
     const router = createBrowserRouter([
         {
             path: "/",
@@ -26,6 +28,10 @@ const Main = () => {
                     path: "filterForm",
                     element: < FilterForm/>,
                 },
+                {
+                    path: "try",
+                    element: < Try />,
+                },
             ],
 
         },
@@ -36,6 +42,6 @@ const Main = () => {
         </div>
     );
 };
-export default Main;
+export default Router;
 
 
