@@ -1,14 +1,4 @@
-import {Form, Link, NavLink,  Outlet, useLoaderData} from "react-router-dom";
-import {createContact, getContacts} from "../contacts";
-
-export async function action() {
-    await createContact();
-}
-
-export async function loader() {
-    const contacts = await getContacts();
-    return {contacts};
-}
+import {NavLink,  Outlet} from "react-router-dom";
 
 export default function Root() {
     let activeStyle = { textDecoration: "underline", };

@@ -1,6 +1,6 @@
 import React from "react";
 import {createBrowserRouter, RouterProvider,} from "react-router-dom";
-import Root, {action as rootAction, loader as rootLoader,} from "./routes/root";
+import Root  from "./routes/root";
 import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
 import FilterForm from "./routes/filterForm";
@@ -13,8 +13,6 @@ const Main = () => {
             path: "/",
             element: <Root/>,
             errorElement: <ErrorPage/>,
-            loader: rootLoader,
-            action: rootAction,
             children: [
                 {
                     path: "home",
