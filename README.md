@@ -5,11 +5,10 @@ rsc
 
 service mysql stop
 
-http://185.182.111.214:3000/
+http://185.182.111.214:3000/   g06u35
 
 ==========================
 
-https://reactdev.ru/handbook/introducing-jsx/#jsx-is-an-expression-too
 
 
 git clone https://github.com/vmarshirov/react_router.git
@@ -32,9 +31,6 @@ chmod 755 ~/cgi-bin/npm_start.sh
 
 http://185.182.111.214:7635/cgi-bin/npm_start.sh
 
-==========================
-
-service mysql stop
 
 ===========================
 
