@@ -5,6 +5,8 @@ rsc
 
 service mysql stop
 
+http://185.182.111.214:3000/
+
 ==========================
 https://reactdev.ru/handbook/introducing-jsx/#jsx-is-an-expression-too
 
