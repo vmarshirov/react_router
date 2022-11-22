@@ -29,6 +29,9 @@ body {
     color: #121212;
 }
 
+label{
+    margin: 0.5rem;
+}
 
 #index {
     display: flex;

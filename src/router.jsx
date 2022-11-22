@@ -3,8 +3,8 @@ import {createBrowserRouter, RouterProvider,} from "react-router-dom";
 import Root  from "./root";
 import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
-import FilterForm from "./routes/filterForm";
-import Try from "./routes/try";
+import Form from "./routes/form";
+import Task from "./routes/task";
 import ErrorPage from "./error-page";
 
 
@@ -25,12 +25,12 @@ const Router = () => {
                     element: < Contact/>,
                 },
                 {
-                    path: "filterForm",
-                    element: < FilterForm/>,
+                    path: "form",
+                    element: < Form/>,
                 },
                 {
-                    path: "try",
-                    element: < Try />,
+                    path: "task",
+                    element: < Task />,
                 },
             ],
 
