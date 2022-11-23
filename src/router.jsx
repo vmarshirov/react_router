@@ -5,6 +5,7 @@ import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
 import Form from "./routes/form";
 import Task from "./routes/task";
+import Reactrouter from "./routes/reactrouter";
 import ErrorPage from "./error-page";
 
 
@@ -32,6 +33,11 @@ const Router = () => {
                     path: "task",
                     element: < Task />,
                 },
+                {
+                    path: "reactrouter",
+                    element: <Reactrouter />
+
+                }
             ],
 
         },

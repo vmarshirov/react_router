@@ -11,6 +11,7 @@ export default function Root() {
                     <li> <NavLink to="contact"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Контакты</NavLink>  </li>
                     <li> <NavLink to="form"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Форма</NavLink>  </li>
                     <li> <NavLink to="task"  style={({isActive}) =>  isActive ? activeStyle : undefined } >Алгоритмическая задача</NavLink>  </li>
+                    <li> <NavLink to="reactrouter"  style={({isActive}) =>  isActive ? activeStyle : undefined } >РеактРоутер</NavLink>  </li>
                 </ul>
             </nav>
         </div>
