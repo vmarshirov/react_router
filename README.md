@@ -1,11 +1,12 @@
+### http://185.182.111.214:3000/
 
- 
+
+========================== 
+
 rsc
 ==========================
 
 service mysql stop
-
-http://185.182.111.214:3000/
 
 g06u35
 
@@ -24,6 +25,11 @@ cat package.json
 npm install
 
 npm start
+
+=============
+Разворачиваем на GitHub
+
+https://create-react-app.dev/docs/deployment
 
 =============
 
