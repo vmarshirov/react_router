@@ -1,18 +1,15 @@
-### http://185.182.111.214:3000/
+rsc -  для Pycharm
+
+### Ссылка на пример:  http://185.182.111.214:3000/
 
 
-========================== 
-
-rsc
-==========================
-
-service mysql stop
-
-g06u35
-
-==========================
+service mysql stop - уменьшаем нагрузку на удаленном сервере (g06u35, root)
 
 
+
+### Клонируем с GitHub (или после копирования *.zip)
+
+Установив предварительно: https://nodejs.org/en/
 
 git clone https://github.com/vmarshirov/react_router.git
 
@@ -26,12 +23,9 @@ npm install
 
 npm start
 
-=============
-Разворачиваем на GitHub
 
-https://create-react-app.dev/docs/deployment
+### Разворачиваем на удаленном сервере (build)
 
-=============
 
 cp cgi-bin/npm_start.sh ~/cgi-bin/npm_start.sh
 
@@ -54,7 +48,7 @@ npm run build
 
 serve -s build
 
-# 👇️ delete node_modules and package-lock.json
+# 👇️ Если возникли проблемы с установкой
 rm -rf node_modules
 
 rm -f package-lock.json
@@ -64,6 +58,7 @@ npm cache clean --force
 npm install
 
 
+### https://reactjs.org/docs/hello-world.html
 
 # Getting Started with Create React App
 
@@ -96,47 +91,8 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
 ###  https://reactrouter.com/en/main/start/tutorial
 
-!window.confirm()
