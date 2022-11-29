@@ -36,7 +36,6 @@ const Router = () => {
                 {
                     path: "reactrouter",
                     element: <Reactrouter />
-
                 }
             ],
 
