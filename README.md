@@ -96,3 +96,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ###  https://reactrouter.com/en/main/start/tutorial
 
+## Deploying a React App* to GitHub Pages
+### https://github.com/gitname/react-gh-pages
+
