@@ -5,7 +5,7 @@ import Home from "./routes/home.jsx";
 import Contact from "./routes/contact";
 import Form from "./routes/form";
 import Task from "./routes/task";
-import Reactrouter from "./routes/reactrouter";
+import  New_router from "./routes/new_router";
 import ErrorPage from "./error-page";
 
 
@@ -34,10 +34,9 @@ const Router = () => {
                     element: < Task />,
                 },
                 {
-                    path: "reactrouter",
-                    element: <Reactrouter />
-                }
-            ],
+                    path: "new_router",
+                    element: <New_router />
+                }           ],
 
         },
     ]);
